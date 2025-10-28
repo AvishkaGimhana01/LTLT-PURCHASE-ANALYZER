@@ -1,0 +1,49 @@
+{
+  "name": "ltl-sales-analyzer-frontend",
+  "version": "1.0.0",
+  "description": "Frontend UI for LTL Sales Analyzer",
+  "private": true,
+  "homepage": "./",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "chart.js": "^4.4.0",
+    "chartjs-plugin-annotation": "^3.1.0",
+    "chartjs-plugin-datalabels": "^2.2.0",
+    "date-fns": "^2.30.0",
+    "html2canvas": "^1.4.1",
+    "jspdf": "^3.0.3",
+    "jspdf-autotable": "^5.0.2",
+    "papaparse": "^5.4.1",
+    "react": "^18.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0"
+  },
+  "scripts": {
+    "start": "set NODE_OPTIONS=--max_old_space_size=4096 && node scripts/start-auto-port.js",
+    "start:old": "set NODE_OPTIONS=--max_old_space_size=4096 && node start-with-port.js",
+    "start:original": "set PORT=3000 && set NODE_OPTIONS=--max_old_space_size=4096 && react-scripts start",
+    "build": "set GENERATE_SOURCEMAP=false && set INLINE_RUNTIME_CHUNK=false && react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "proxy": "http://localhost:5000"
+}

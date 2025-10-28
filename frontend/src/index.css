@@ -1,0 +1,125 @@
+/* LTL TRANSFORMERS Design System - Company Colors */
+:root {
+  /* Company Primary Colors */
+  --color-primary: #7BC96F;
+  --color-primary-dark: #5FA855;
+  --color-primary-light: #9FD795;
+  
+  /* Company Secondary Colors */
+  --color-secondary: #3A7CA5;
+  --color-secondary-dark: #2A5F7F;
+  --color-secondary-light: #5B9AC9;
+  
+  /* Company Accent Colors */
+  --color-navy: #2C3E70;
+  --color-navy-dark: #1F2D52;
+  --color-teal: #2A5F7F;
+  --color-blue-light: #A8C5DD;
+  
+  /* Gradients */
+  --gradient-primary: linear-gradient(135deg, #7BC96F 0%, #5FA855 100%);
+  --gradient-secondary: linear-gradient(135deg, #3A7CA5 0%, #2A5F7F 100%);
+  --gradient-navy: linear-gradient(135deg, #2C3E70 0%, #3A7CA5 100%);
+  --gradient-accent: linear-gradient(135deg, #7BC96F 0%, #3A7CA5 100%);
+  
+  /* Neutral Colors */
+  --color-gray-100: #F0F4F8;
+  --color-gray-200: #D9E2EC;
+  --color-gray-300: #CBD5E0;
+  --color-gray-400: #94A3B8;
+  --color-gray-500: #718096;
+  --color-gray-600: #475569;
+  --color-gray-700: #334155;
+  --color-gray-800: #1E293B;
+  --color-gray-900: #0F172A;
+  
+  /* Status Colors */
+  --color-success: #48bb78;
+  --color-error: #f56565;
+  --color-warning: #ed8936;
+  --color-info: #4299e1;
+  
+  /* Shadows with Company Colors */
+  --shadow-sm: 0 2px 4px rgba(44,62,112,0.08);
+  --shadow-md: 0 4px 12px rgba(44,62,112,0.12);
+  --shadow-lg: 0 6px 20px rgba(44,62,112,0.15);
+  --shadow-xl: 0 10px 30px rgba(44,62,112,0.2);
+  --shadow-primary: 0 6px 20px rgba(123,201,111,0.35);
+  --shadow-primary-lg: 0 8px 25px rgba(123,201,111,0.45);
+  --shadow-secondary: 0 6px 20px rgba(58,124,165,0.35);
+  --shadow-glow: 0 0 15px rgba(123,201,111,0.5);
+  
+  /* Gradients for backgrounds */
+  --gradient-success: linear-gradient(135deg, #48bb78 0%, #38a169 100%);
+  --gradient-warning: linear-gradient(135deg, #ed8936 0%, #dd6b20 100%);
+  --gradient-info: linear-gradient(135deg, #4299e1 0%, #3182ce 100%);
+  
+  /* Border Radius */
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+  
+  /* Transitions */
+  --transition-base: 300ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-bounce: 400ms cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  
+  /* Font Weights */
+  --font-normal: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(135deg, #F0F4F8 0%, #E8F5F0 100%);
+  color: var(--color-gray-800);
+  line-height: 1.6;
+}
+
+/* Optimized Scrollbar with Company Colors */
+::-webkit-scrollbar { width: 12px; height: 12px; }
+::-webkit-scrollbar-track { 
+  background: var(--color-gray-100); 
+  border-radius: var(--radius-sm); 
+}
+::-webkit-scrollbar-thumb { 
+  background: var(--gradient-primary); 
+  border-radius: var(--radius-sm); 
+  border: 2px solid var(--color-gray-100);
+  transition: background var(--transition-base);
+}
+::-webkit-scrollbar-thumb:hover { 
+  background: var(--gradient-secondary); 
+}
+
+::selection { 
+  background: var(--color-primary); 
+  color: white; 
+}
+
+:focus-visible { 
+  outline: 2px solid var(--color-primary); 
+  outline-offset: 2px; 
+}
+
+html { scroll-behavior: smooth; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { 
+    animation: none !important; 
+    transition: none !important; 
+  }
+  html { 
+    scroll-behavior: auto !important; 
+  }
+}

@@ -1,0 +1,26 @@
+Vendor,Amount,Date,Payment_Type,Shipping_Type,Remarks,Price_Mod
+ABC Corporation,125000,2024-01-15,Paid,Express,Rush order,Standard
+XYZ Industries,85000,2024-01-18,Pending,Standard,Regular delivery,Discounted
+Tech Solutions Ltd,150000,2024-01-22,Paid,Express,Priority client,Premium
+Global Traders,95000,2024-01-25,Paid,Standard,Bulk order,Standard
+Metro Enterprises,110000,2024-02-01,Pending,Express,Special request,Standard
+Prime Suppliers,78000,2024-02-05,Paid,Standard,Standard order,Discounted
+Elite Manufacturing,135000,2024-02-10,Paid,Express,Urgent requirement,Premium
+Diamond Corp,92000,2024-02-15,Pending,Standard,Normal delivery,Standard
+Silver Industries,105000,2024-02-20,Paid,Express,Quick turnaround,Standard
+Golden Traders,88000,2024-02-25,Paid,Standard,Regular order,Discounted
+Platinum Solutions,145000,2024-03-01,Pending,Express,High priority,Premium
+Crystal Enterprises,97000,2024-03-05,Paid,Standard,Standard delivery,Standard
+Emerald Suppliers,115000,2024-03-10,Paid,Express,Fast shipment,Standard
+Ruby Manufacturing,82000,2024-03-15,Pending,Standard,Normal process,Discounted
+Sapphire Corp,128000,2024-03-20,Paid,Express,Express handling,Premium
+ABC Corporation,132000,2024-03-25,Paid,Standard,Repeat order,Standard
+XYZ Industries,89000,2024-04-01,Pending,Express,Quick delivery,Discounted
+Tech Solutions Ltd,155000,2024-04-05,Paid,Express,VIP client,Premium
+Global Traders,99000,2024-04-10,Paid,Standard,Bulk purchase,Standard
+Metro Enterprises,112000,2024-04-15,Pending,Express,Special handling,Standard
+Prime Suppliers,81000,2024-04-20,Paid,Standard,Regular order,Discounted
+Elite Manufacturing,142000,2024-04-25,Paid,Express,Priority order,Premium
+Diamond Corp,96000,2024-05-01,Pending,Standard,Standard shipping,Standard
+Silver Industries,108000,2024-05-05,Paid,Express,Fast track,Standard
+Golden Traders,91000,2024-05-10,Paid,Standard,Normal delivery,Discounted
