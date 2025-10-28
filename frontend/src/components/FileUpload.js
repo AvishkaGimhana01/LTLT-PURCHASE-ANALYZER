@@ -7,7 +7,7 @@ const FileUpload = ({ onDataAnalyzed, loading, setLoading }) => {
   const [error, setError] = useState(null);
   const fileInputRef = useRef(null);
 
-  const API_URL = process.env.REACT_APP_API_URL || 'https://ltlt-purchase-analyzer.onrender.com/';
+  const API_URL = process.env.REACT_APP_API_URL || 'https://ltlt-purchase-analyzer.onrender.com';
 
   const handleDrag = (e) => {
     e.preventDefault();
